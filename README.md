@@ -38,3 +38,11 @@ Publishing artifact to Nexus snapshot and release repo using maven.
 ## Maven Lifecycle Phases
 - https://maven.apache.org/guides/introduction/introduction-to-the-lifecycle.html#a-build-lifecycle-is-made-up-of-phases
 
+
+
+###################################
+
+mvn sonar:sonar \
+  -Dsonar.projectKey=JavaProject \
+  -Dsonar.host.url=http://107.21.139.153:9000 \
+  -Dsonar.login=d83d49d226e3d2ced9c3eda1371169c169311fa5
